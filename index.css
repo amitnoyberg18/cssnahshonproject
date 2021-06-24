@@ -1,0 +1,54 @@
+div{
+    background-color: blue;
+}
+#ex1{
+    text-align: center;
+    background-color:white;
+}
+#mcdonalds{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {transform:rotateY(0deg);}
+    25%  {transform:rotateY(180deg);}
+    50%  {transform:rotateY(360deg);}
+    75%  {transform:rotateY(180deg);}
+    100% {transform:rotateY(0deg);}
+}
+#colorchange{
+    margin: auto;
+    background-color: blue;
+    padding: 40px;
+    width: 100px;
+    background-color:white;
+}
+#colorchange:hover{
+    background-color: red;
+}
+#radiobox{
+    margin:auto;
+    padding: 20px;
+    width: 100px;
+    background-color:white;
+}
+#orange[value="orange"]:checked+label{
+    color: orange;
+}
+#red[value="red"]:checked+label{
+    color: red;
+}
+#green[value="green"]:checked+label{
+    color: green;
+}
+#TheList{
+    margin:auto;
+    padding: 40px;
+    width: 100px;
+    color: green;
+    background-color:white;
+}
+#el4{
+    color:pink;
+}
